@@ -2,7 +2,6 @@ const buttons= document.querySelectorAll("input[type='button']");
 const dispalyInput= document.getElementById("displayInput");
 const opeartion= document.getElementById("operation")
 
-// opeartion.innerHTML= "test js22 2 "
 
 buttons.forEach(btn => {
     btn.addEventListener("click", () => {
